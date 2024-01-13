@@ -1,81 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Mi página web</title>
-    </head>
-    <body>
-        <header>
+<head>
+    <title>Mi página web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./reset.css" />
+</head>
+<body>
+    <header id="header">
+        <h1>Pronósticos SOCCER</h1>
+        <p>Los mejores pronósticos para ganar</p>
+        <div id="card-container">
+            <div class="card">
+                <h2>Ganador</h2>
+                <p>Realiza tu pronóstico sobre el ganador del partido.</p>
+            </div>
+            <div class="card">
+                <h2>Doble oportunidad</h2>
+                <p>Pronostico posibles resultados gana o empata el partido.</p>
+            </div>
+            <div class="card">
+                <h2>Tiros de esquinas</h2>
+                <p>Cuántos tiros de esquina habrá en el partido</p>
+            </div>
+        </div>
+        <hr />
+    </header>
 
-            <h1>Pronosticos SOCCER</h1>
-                <p>Los mejores pronosticos para ganar</p>
-                    <span>Ganador</span>
-                    <span>Doble oportunidad</span>
-                    <span>Tiros de esquinas</span>
-
-            <hr />
-
-        </header>
-         
-         <main>
-            <img src="./portada.jpg"/>
-
+    <main>
+        <div id="main-container">
+            <div id="image-container">
+                <img src="./portada.jpg" alt="Portada de la página web">
+            </div>
             <section>
-                <h2>Resultado Final</H2>
-
+                <h2>Resultado Final</h2>
                 <article>
-
-                    <h3>Elegir Ganador</h3>
-
+                <h3>Elegir Ganador</h3>
                     <div>
                         <p>Ganador del partido</p>
-                        <p>Es una apuesta 1X2 al resultado del resto de la prórroga del partido poniendo el marcador a cero en el momento de realizar la apuesta. En este mercado no se tiene en consideración los penaltis (en tanda de penaltis)
-                        </p>
-
+                        <p>Es una apuesta 1X2 al resultado del resto de la prórroga del partido poniendo el marcador a cero en el momento de realizar la apuesta. En este mercado no se tiene en consideración los penaltis (en tanda de penaltis)</p>
                     </div>
-
-                <ol>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                </ol>
-
+                    <ol>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                    </ol>
                 </article>
-       
                 <hr />
-
                 <article>
-       
-                <h3>Gana o Empata</h3>
-
-                     <p>Opcion de Doble oportunidad</p>
-                     <p>Visitante o local</p>
-       
-                <ul>
-                     <li>local</li>
-                     <li>Visitante</li>
-                </ul>
-
+                    <h3>Gana o Empata</h3>
+                    <p>Opcion de Doble oportunidad</p>
+                    <p>Visitante o local</p>
+                    <ul>
+                        <li>local</li>
+                        <li>Visitante</li>
+                    </ul>
                 </article>
-       
                 <hr />
-       
                 <article>
                     <h3>Ambos Anotan</h3>
                 </article>
-
                 <hr />
-                     
             </section>
-         </main>
+        </div>
+    </main>
 
-         <footer>
-            <p>
-                Este es el footer de mi pagina. ahora voy a poner unos enlaces
-            </p>
-
-            <a href="./contacto.html">Formulario de contacto</a>
-         </footer>
-         
-    </body>
+    <footer>
+        <p>Este es el footer de mi pagina. ahora voy a poner unos enlaces</p>
+        <a href="./contacto.html">Formulario de contacto</a>
+    </footer>
+</body>
 </html>
-
